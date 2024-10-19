@@ -1,60 +1,402 @@
+<html><head><base href="Our%20services.html">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aventis - Connecting African Communities to the Digital World</title>
+<style>
+  :root {
+    --primary-color: hsl(0, 0%, 100%);
+    --secondary-color: #ffc300;
+    --text-color: #333;
+    --bg-color: #df6604;
+  }
+  
+  body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  header {
+    background-color: var(--primary-color);
+    color: rgb(165, 74, 0);
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    margin-right: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    margin-left: 20px;
+  }
+  
+  nav ul li a:hover {
+    color: var(--secondary-color);
+  }
+  
+  .hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://res.cloudinary.com/dfedn2xsg/image/upload/v1718012621/cld-sample-2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(219, 132, 19);
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #e6b000;
+  }
+  
+  .services {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+  }
+  
+  .service-card {
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .service-card h3 {
+    color: var(--primary-color);
+  }
+  
+  .service-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .impact {
+    background-color: var(--primary-color);
+    color: rgb(228, 86, 4);
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .impact h2 {
+    margin-bottom: 30px;
+  }
+  
+  .impact-stats {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .stat {
+    font-size: 2em;
+    font-weight: bold;
+  }
+  
+  footer {
+    background-color: var(--primary-color);
+    color: rgb(243, 141, 8);
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+  }
+  
+  @media (max-width: 768px) {
+    .services {
+      flex-direction: column;
+    }
+    
+    .service-card {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    
+    .impact-stats {
+      flex-direction: column;
+    }
+    
+    .stat {
+      margin-bottom: 20px;
+    }
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aventis - Connecting Communities</title>
-    <link rel="stylesheet" href="style.css">
+    
+  }
+</style>
 </head>
 <body>
-    <header>
-        <!-- Logo added here -->
-        <img src="https://res.cloudinary.com/dfedn2xsg/image/upload/v1729261084/Aventis_jaspct.png" alt="Aventis Logo" class="logo">
-        <h1>Welcome to Aventis</h1>
-        <p>Bridging Remote African Communities to the Digital World</p>
-    </header>
-
-    <section class="about">
-        <h2>About Us</h2>
-        <p>We are a team dedicated to empowering communities by connecting them with digital solutions tailored for growth and development.</p>
-        <!-- Updated image -->
-        <img src="https://images.pexels.com/photos/667200/pexels-photo-667200.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Connecting African Communities" />
+  <header>
+    <div class="container">
+      <div class="logo">
+        <img src="https://res.cloudinary.com/dfedn2xsg/image/upload/v1729263131/Aventis_am5laj.gif" alt="Aventis logo - stylized A in blue and yellow" width="200" height="200">
+        <h2>Aventis</h2>
+      </div>
+      <nav>
+        <ul>
+        
+        </ul>
+      </nav>
+    </div>
+  </header>
+  
+  <main>
+    <section class="hero">
+      <div class="container">
+        <h1>Connecting Africa to the Digital World</h1>
+        <p>Empowering remote communities through technology and education</p>
+        <button class="cta-button">Learn More</button>
+      </div>
+    </section>
+    
+    <section class="services container">
+      <div class="service-card">
+        <img src="https://images.pexels.com/photos/4314674/pexels-photo-4314674.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Young African woman using a laptop, modern office setting" width="300" height="200">
+        <h3>Digital Solutions</h3>
+        <p>We provide tailored digital solutions to connect remote African communities to the global network.</p>
+      </div>
+      <div class="service-card">
+        <img src="https://images.pexels.com/photos/3869651/pexels-photo-3869651.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Group of diverse African professionals in a meeting, collaborative environment" width="300" height="200">
+        <h3>Leadership Development</h3>
+        <p>Our programs nurture local leaders, equipping them with the skills to drive community growth.</p>
+      </div>
+      <div class="service-card">
+        <img src="https://images.pexels.com/photos/9660720/pexels-photo-9660720.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="African students in a classroom setting, engaged in digital learning" width="300" height="200">
+        <h3>Skill Building</h3>
+        <p>We offer comprehensive training to develop essential digital and professional skills.</p>
+      </div>
+      <div class="service-card">
+        <img src="https://images.pexels.com/photos/9432954/pexels-photo-9432954.jpeg?auto=compress&cs=tinysrgb&w=600" alt="African students in a classroom setting, engaged in digital learning" width="300" height="200">
+        <h3>Skill Building</h3>
+        <p>We offer comprehensive training to develop essential digital and professional skills.</p>
+      </div>
+      <div class="service-card">
+        <img src="https://images.pexels.com/photos/28928756/pexels-photo-28928756/free-photo-of-traditional-african-drum-dance-performance.jpeg?auto=compress&cs=tinysrgb&w=600" alt="African students in a classroom setting, engaged in digital learning" width="300" height="200">
+        <h3>EventManagement</h3>
+        <p>We offer comprehensive training to develop essential digital and professional skills.</p>
+      </div>
+      <div class="service-card">
+        <img src="https://images.pexels.com/photos/15606944/pexels-photo-15606944/free-photo-of-two-people-in-black-clothing-standing-in-tall-grass.jpeg?auto=compress&cs=tinysrgb&w=600" alt="African students in a classroom setting, engaged in digital learning" width="300" height="200">
+        <h3>Fashionmodelling</h3>
+        <p>We offer comprehensive training to develop essential digital and professional skills.</p>
+      </div>
+    </section>
+    
+    <section class="impact">
+      <div class="container">
+        <h2>Our Impact</h2>
+        <div class="impact-stats">
+          <div class="stat">
+            <p>50+</p>
+            <p>Communities Reached</p>
+          </div>
+          <div class="stat">
+            <p>10,000+</p>
+            <p>People Trained</p>
+          </div>
+          <div class="stat">
+            <p>500+</p>
+            <p>Leaders Developed</p>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section class="services">
-        <h2>Our Services</h2>
-        <div class="service-item">
-            <!-- Updated image -->
-            <img src="https://images.pexels.com/photos/54101/magic-cube-cube-puzzle-play-54101.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Problem Solving">
-            <h3>Problem Solving</h3>
-            <p>Equipping teams with tools to solve problems efficiently in a remote working environment.</p>
+    <section class="about-content container">
+      <div class="about-text">
+        <h2>Our Mission</h2>
+        <p>At Aventis, we are driven by a singular purpose: to connect remote African communities to the digital world. We believe that access to technology and digital skills is not just a luxury, but a necessity in today's interconnected global economy.</p>
+        <p>Our journey began in 2015 when our founders witnessed firsthand the transformative power of technology in a small village in Ghana. Since then, we've been on a mission to replicate and scale that impact across the continent.</p>
+        <h2>Our Approach</h2>
+        <p>We take a holistic approach to digital empowerment, focusing on three key areas:</p>
+        <ul>
+          <li><strong>Digital Solutions:</strong> We provide tailored technological infrastructure and tools to connect communities.</li>
+          <li><strong>Leadership Development:</strong> We nurture local leaders who can drive and sustain digital transformation in their communities.</li>
+          <li><strong>Skill Building:</strong> We offer comprehensive training programs to equip individuals with essential digital and professional skills.</li>
+        </ul>
+      </div>
+      <div class="about-image">
+        <img src="https://res.cloudinary.com/dfedn2xsg/image/upload/v1729263131/Aventis_am5laj.gif" alt="Aventis team members working with local community, setting up digital infrastructure" width="600" height="600">
+      </div>
+    </section>
+    
+    <section class="team">
+      <div class="container">
+        <h2>Our Team</h2>
+        <div class="team-members">
+          <div class="team-member">
+            <img src="https://res.cloudinary.com/dfedn2xsg/image/upload/v1729353875/KOLORO_1729164461315_kkm4s2.jpg" alt="Trevor Murithi, CEO of Aventis, smiling confidently" width="100" height="100">
+            <h3>Trevor Murithi</h3>
+            <p>CTO & Co-founder</p>
+          </div>
+          <div class="team-member">
+            <img src="https://res.cloudinary.com/dfedn2xsg/image/upload/v1729354464/IMG-20241019-WA0000_xespis.jpg" alt="Chris Mwiti, COO of Aventis, in a professional setting" width="100" height="100">
+            <h3>Maxwel Ndereba</h3>
+            <p>COO & Co-founder</p>
+          </div>
+          <div class="team-member">
+            <img src="https://www.aventis.org/images/team-member-3.jpg" alt="Martin Mutethia, Head of Digital Solutions at Aventis" width="150" height="150">
+            <h3>Martin Mutethia</h3>
+            <p>COO & Co-founder </p>
+          </div>
+          <div class="team-member">
+            <img src="https://www.aventis.org/images/team-member-4.jpg" alt="Maxwel Ndereba, Head of Leadership Development at Aventis" width="150" height="150">
+            <h3>Chris mwiti</h3>
+            <p>COO & Co-founder Head of EventManagement</p>
+          </div>
         </div>
-        <div class="service-item">
-            <!-- Updated image -->
-            <img src="https://images.pexels.com/photos/18459701/pexels-photo-18459701/free-photo-of-models-posing-together.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Communication Training">
-            <h3>Communication Skills</h3>
-            <p>Empowering individuals with essential communication skills for effective collaboration.</p>
-        </div>
-        <div class="service-item">
-            <!-- Placeholder image for now -->
-            <img src="https://images.pexels.com/photos/1367272/pexels-photo-1367272.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Leadership Development">
-            <h3>Leadership Development</h3>
-            <p>Training future leaders to navigate the challenges of the digital age.</p>
-        </div>
+      </div>
     </section>
 
-    <section class="brand-purpose">
-        <h2>Our Purpose</h2>
-        <article>
-            <p>At <strong>Aventis</strong>, our purpose is to connect remote communities in Africa to the digital world. We believe in bridging the gap between technology and people, empowering individuals to thrive in today’s connected society.</p>
-            <p>By focusing on digital skills training, soft skills development, and leadership empowerment, we aim to provide the tools necessary for individuals to grow both personally and professionally. Our training programs are designed to foster innovation, problem-solving, and collaboration, particularly in regions where traditional infrastructure is limited.</p>
-            <p>We are committed to creating lasting impact through sustainable digital solutions, allowing communities to access opportunities, improve their livelihoods, and contribute to the global digital economy.</p>
-        </article>
+    
+    <section class="contact-section container">
+      <div class="contact-form">
+        <h2>Send Us a Message</h2>
+        <form id="contact-form">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+          
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+          
+          <label for="subject">Subject</label>
+          <input type="text" id="subject" name="subject" required>
+          
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+          
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+      
+      <div class="contact-info">
+        <h2>Contact Information</h2>
+        <p><i class="fas fa-map-marker-alt"></i> 123 Digital Way, Nairobi, Kenya</p>
+        <p><i class="fas fa-phone"></i> +254 123 456 789</p>
+        <p><i class="fas fa-envelope"></i> info@aventis.org</p>
+        <p><i class="fas fa-clock"></i> Mon-Fri: 9am - 5pm (EAT)</p>
+        <h3>Follow Us</h3>
+        <p>
+          <a href="https://www.facebook.com/AventisOrg" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i></a>
+          <a href="https://www.twitter.com/AventisOrg" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+          <a href="https://www.linkedin.com/company/aventis-org" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/aventis_org" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+        </p>
+      </div>
     </section>
+  </main>
+  
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 Aventis. All rights reserved.</p>
+    </div>
+  </footer>
 
-    <footer>
-        <p>&copy; 2024 Aventis. All rights reserved.</p>
-    </footer>
+  <script>
+    document.querySelector('.cta-button').addEventListener('click', function() {
+      alert('Thank you for your interest! We\'re excited to share more about our mission to connect African communities.');
+    });
+
+    window.addEventListener('scroll', function() {
+      const header = document.querySelector('header');
+      if (window.scrollY > 50) {
+        header.style.backgroundColor = 'rgba(26, 95, 122, 0.9)';
+      } else {
+        header.style.backgroundColor = 'var(--primary-color)';
+      }
+    });
+
+    const serviceCards = document.querySelectorAll('.service-card');
+    serviceCards.forEach(card => {
+      card.addEventListener('mouseenter', function() {
+        this.style.backgroundColor = '#f0f0f0';
+      });
+      card.addEventListener('mouseleave', function() {
+        this.style.backgroundColor = 'white';
+      });
+    });
+
+    // Animate impact stats
+    const stats = document.querySelectorAll('.stat p:first-child');
+    const observerOptions = {
+      threshold: 0.5
+    };
+
+    const observer = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          const target = entry.target;
+          const finalValue = parseInt(target.innerText);
+          animateValue(target, 0, finalValue, 2000);
+          observer.unobserve(target);
+        }
+      });
+    }, observerOptions);
+
+    stats.forEach(stat => observer.observe(stat));
+
+    function animateValue(obj, start, end, duration) {
+      let startTimestamp = null;
+      const step = (timestamp) => {
+        if (!startTimestamp) startTimestamp = timestamp;
+        const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+        obj.innerHTML = Math.floor(progress * (end - start) + start);
+        if (progress < 1) {
+          window.requestAnimationFrame(step);
+        }
+      };
+      window.requestAnimationFrame(step);
+    }
+  </script>
 </body>
 </html>
